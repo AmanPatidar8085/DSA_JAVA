@@ -20,7 +20,7 @@ public class RotatedArray {
         int arr[]={1,2,4,5,6,7,8,9};
         int k=4;
         RotatedArray obj = new RotatedArray();
-        obj.rotate(arr, 8);
+        obj.rotate(arr, k);
 
         System.out.println("Rotated Array:");
         for (int i=0;i<arr.length;i++) {
